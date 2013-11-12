@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+
+gem "carrierwave", "~> 0.9.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -45,3 +47,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'devise'
