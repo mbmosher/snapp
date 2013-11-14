@@ -27,12 +27,12 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-<<<<<<< HEAD
+
 gem 'atomic', '~> 1.1.14'
-=======
+
 # Use Carrierwave for file handling
 gem 'carrierwave'
->>>>>>> 3a416f5eafd1dc142fd8a812a1caa4c10fc785e9
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
