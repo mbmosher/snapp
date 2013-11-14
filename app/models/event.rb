@@ -5,4 +5,7 @@ class Event < ActiveRecord::Base
   belongs_to :user
   has_many :invites
   
+  validates :title, presence: true
+  validates :date, presence: true
+  
 end
